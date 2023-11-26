@@ -19,7 +19,7 @@ func main() {
 	err := w.WriteMessages(context.Background(),
 		kafka.Message{
 			Key:   []byte("Key-A"),
-			Value: []byte("Hello khan nabi!"),
+			Value: []byte("Hello abc!"),
 		},
 	)
 
